@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - WT Sistemas</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="~/Scripts/bootstrap-3.0.2/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/Site.css" rel="stylesheet" />
+        
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+        <script src="~/Scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="~/Scripts/bootstrap-3.0.2/js/bootstrap.min.js"></script>
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+        <script src="~/Scripts/Principal/default.js"></script>
+
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="/" style="width: 210px">Cisper Transportes</a> -->
+                    <a class="brand2" href="/"><!-- <img id="Logo" alt="Cisper Transportes" src="Imagens/Logo.png" style="margin-top: 4px; margin-right: 5px;" /> --> WT Sistemas</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" id="menu_link">
+                        <li class="active"><a href="javascript:loadOptions('Home/index', 'home')">Home</a></li>
+                        <li><a href="javascript:loadOptions('Empresa/index', 'empresa')">Empresa</a></li>
+                        <li><a href="javascript:loadOptions('Servicos/index', 'servicos')">Serviços</a></li>
+                        <li><a href="javascript:loadOptions('Cotacao/index', 'cotacao')">Cotação de Serviço</a></li>
+                        <li><a href="javascript:loadOptions('Contatos/index', 'contatos')">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="navbar navbar-inverse navbar-fixed-bottom">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <center>
+                            <div class="nav rodape">
+                                <span class="rodape">WT Sistemas &copy; @DateTime.Now.Year - Todos os direitos reservados</span>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

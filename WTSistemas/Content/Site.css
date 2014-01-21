@@ -1,0 +1,142 @@
+﻿
+html {
+     overflow-y: scroll;
+     /*overflow-y: scroll; */
+     /*overflow: -moz-scrollbars-vertical;*/
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #F0F1F7;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#corpo
+{
+    margin-top: -18px;
+    padding-bottom:45px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.border
+{
+    border:solid #b4b4b4 1px;
+    display:inline-block;
+}
+
+.shadow
+{
+    -moz-box-shadow: 0px 1px 7px #000000;
+    -webkit-box-shadow: 0px 1px 7px #000000;
+    box-shadow: 0px 1px 7px #000000;
+}
+
+.margin_right5 { margin-right: 5px; }
+.margin_right10 { margin-right: 10px; }
+.margin_right20 { margin-right: 20px; }
+
+.margin_left5 { margin-left: 5px; }
+.margin_left10 { margin-left: 10px !important; }
+.margin_left15 { margin-left: 15px; }
+.margin_left20 { margin-left: 20px; }
+
+.margin_bottom5 { margin-bottom: 5px; }
+.margin_bottom10 { margin-bottom: 10px; }
+.margin_bottom20 { margin-bottom: 20px; }
+.margin_bottom60 { margin-bottom: 60px !important; }
+
+.margin_top05 { margin-top: 1px !important; }
+.margin_top5 { margin-top: 5px; }
+.margin_top10 { margin-top: 10px; }
+.margin_top20 { margin-top: 20px; }
+
+.arredondar
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.arredondar2
+{
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.rodape
+{
+    color: #F2F3F7;  
+    padding-top: 15px;
+}
+
+.rodapeRedesSociais
+{
+    padding: 0px 7px 0px 0px;
+    width: 114px;
+    height: 39px;
+}
+
+
+#ImagemProduto2 
+{
+    float:left;    
+    width:160px;
+    height: 40px;
+    margin-top: -2px;
+    margin-left:-35px;
+}
+
+#ImagemProduto2 ul li
+{    
+    display:inline-block;
+    width:32px;
+    height: 32px;
+    margin-left:5px;
+    margin-top: 7px;
+}
+
+#ImagemProduto2 ul li img:hover
+{
+    margin: -6px 0px -3px 0px; 
+    width: 35px;
+    height: 35px;
+    z-index:1;
+}
