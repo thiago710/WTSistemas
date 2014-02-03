@@ -140,3 +140,92 @@ input[type="checkbox"].input-validation-error {
     height: 35px;
     z-index:1;
 }
+
+/* ---------------------------------------- Código Abaixo para CSS Inbox dos titulos da pagina  ------------------------------------------------*/
+.infobox-container {
+    position: relative;
+    display: inline-block;
+    width: 96.5%;
+}
+.infobox {
+    width: 100%;
+    padding: 0px 5px 5px 5px;
+    /* margin:10px; */
+    position: relative;
+    z-index: 90;
+    color: #fff;
+    font-size: 90%;
+}
+.infobox h3 {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    /* left: -15px; */
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    background: #002a80;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#33acfc), to(#002a80));
+    background-image: -moz-linear-gradient(top,#33acfc,#002a80);
+
+    background-image: -webkit-linear-gradient(top, #33acfc, #002a80);
+    background-image: -o-linear-gradient(top, #33acfc, #002a80);
+    background-image: linear-gradient(to bottom, #33acfc, #002a80);
+    background-repeat: repeat-x;
+
+    font-size: 160%;
+    text-align: left;
+    text-shadow: #2187c8 0 -1px 1px;
+    font-weight: bold;
+}
+ 
+.infobox-container .triangle-l {
+    border-color: transparent #2083c2 transparent transparent;
+    border-style:solid;
+    border-width:13px;
+    height:0;
+    width:0;
+    position: absolute;
+    left: -12px;
+    top: 45px;
+    z-index: 0; /* displayed under infobox */
+}
+.infobox-container .triangle-r {
+    border-color: transparent transparent transparent #2083c2;
+    border-style:solid;
+    border-width:13px;
+    height:0;
+    width:0;
+    position: absolute;
+    left: 100%;
+    top: 45px;
+    z-index: 0; /* displayed under infobox */
+}
+.infobox a {
+    color: #35b0ff;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+}
+.infobox a:hover, .infobox a:focus {
+    text-decoration: none;
+    border-bottom: 1px dotted #35b0ff;
+}
+
+.abaTriangle-l
+{
+    margin-top: 12px;
+    margin-left: -15px;
+}
+
+.abaTriangle-r
+{
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+
+/* ---------------------------------------- Fim do CSS Inbox dos titulos da pagina  ------------------------------------------------*/

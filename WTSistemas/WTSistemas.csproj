@@ -258,7 +258,10 @@
     <Content Include="Images\Icones\configuracao.png" />
     <Content Include="Images\Icones\html5.png" />
     <Content Include="Images\Icones\layout.png" />
+    <Content Include="Images\Icones\maisAgilidade.png" />
+    <Content Include="Images\Icones\projetosCompletos.png" />
     <Content Include="Images\Icones\segurança.png" />
+    <Content Include="Images\Icones\servicesParados.png" />
     <Content Include="Scripts\bootstrap-3.0.2\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\bootstrap-3.0.2\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Scripts\bootstrap-3.0.2\fonts\glyphicons-halflings-regular.woff" />
